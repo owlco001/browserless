@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: browserless
+    region: singapore
+    plan: free
+    repo: https://github.com/owlco001/browserless
+    branch: main
+    dockerfilePath: ./Dockerfile
+    port: 7860
